@@ -1,4 +1,10 @@
-# 📂 Python File Handling Functions
+# File System Function
+- write(), writelines(), readlines()
+- tell() , seek(), truncate()
+
+# 📂 Python File Handling Functions (Simple Guide)
+
+This is a quick and easy reference for some commonly used file functions in Python.
 
 ---
 

@@ -1,1 +1,4 @@
 Hello World
+Welcome to AI ML course with phitron
+Tell me is this ok
+Yes it is
