@@ -1,0 +1,102 @@
+# 📂 Python File Handling Functions
+
+---
+
+## ✏️ Writing to Files
+
+### `write()`
+
+* Writes a single string to a file.
+* Does NOT add a newline automatically.
+
+Example:
+
+```python
+f.write("Hello")
+```
+
+---
+
+### `writelines()`
+
+* Writes multiple strings (list or tuple) to a file.
+* Does NOT add newlines automatically.
+
+Example:
+
+```python
+lines = ["Hello\n", "World\n"]
+f.writelines(lines)
+```
+
+---
+
+## 📖 Reading from Files
+
+### `readlines()`
+
+* Reads all lines from a file.
+* Returns a list of strings.
+
+Example:
+
+```python
+lines = f.readlines()
+```
+
+---
+
+## 📍 File Pointer Functions
+
+### `tell()`
+
+* Returns the current position of the file pointer.
+
+Example:
+
+```python
+position = f.tell()
+```
+
+---
+
+### `seek()`
+
+* Moves the file pointer to a specific position.
+
+Example:
+
+```python
+f.seek(0)  # Move to the beginning
+```
+
+---
+
+## ✂️ Modifying File Content
+
+### `truncate()`
+
+* Cuts the file content from the current position or a specified size.
+
+Example:
+
+```python
+f.truncate(5)
+```
+
+---
+
+## ⚡ Quick Summary Table
+
+| Function     | What it Does             |
+| ------------ | ------------------------ |
+| write()      | Write one string         |
+| writelines() | Write multiple strings   |
+| readlines()  | Read all lines as a list |
+| tell()       | Get current position     |
+| seek()       | Move file pointer        |
+| truncate()   | Cut file content         |
+
+---
+
+💡 Tip: Always open files using `with open(...) as file:` to handle files safely.
