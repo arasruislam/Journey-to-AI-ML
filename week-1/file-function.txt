@@ -1,6 +1,7 @@
 # File System Function
 - write(), writelines(), readlines()
 - tell() , seek(), truncate()
+- Strip()
 
 # 📂 Python File Handling Functions (Simple Guide)
 
@@ -102,6 +103,7 @@ f.truncate(5)
 | tell()       | Get current position     |
 | seek()       | Move file pointer        |
 | truncate()   | Cut file content         |
+| strip()      | Remove new lines         |
 
 ---
 
